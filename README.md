@@ -38,7 +38,7 @@ Para resolver isso de forma definitiva, dividi o problema em duas partes:
 ## 👨‍💻 Tecnologias Utilizadas
 * **PowerShell** (Automação de limpeza)
 * **Modelos ADMX / GPO** (Governança e controle de rede)
-* **Windows Server 
+* **Windows Server** 
 
 ---
 *Mantido por [Pablo Vinicius](https://github.com/Pbzin)*
