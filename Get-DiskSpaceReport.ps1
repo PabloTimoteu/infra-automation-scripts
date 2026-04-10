@@ -2,13 +2,13 @@
 .SYNOPSIS
     Gera relatório de espaço em disco em servidores.
 .DESCRIPTION
-    Verifica todos os discos fixos e gera um alerta caso o espaço esteja abaixo de 10%.
+    Verifica todos os discos fixos e gera um alerta caso o espaço esteja abaixo de 5%.
 .EXAMPLE
     .\Get-DiskSpaceReport.ps1
 #>
 
-$Threshold = 10 # Porcentagem de alerta
-$ReportPath = "$PSScriptRoot\DiskReport.txt"
+$Threshold = 5 # Porcentagem de alerta
+$ReportPath = "C:\Temp\Relatorio_Disco.txt"
 
 $Disks = Get-CimInstance Win32_LogicalDisk -Filter "DriveType=3"
 
