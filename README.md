@@ -33,6 +33,9 @@ Para resolver isso de forma definitiva, dividi o problema em duas partes:
 * **Finalidade:** Manutenção de espaço em disco em servidores TS/Multi-usuário.
 * **Diferencial:** Varredura dinâmica em todos os perfis do Browser dentro do perfil do Windows.
 
+### ### 🧹 [Alerta de disco](./Get-DiskSpaceReport.ps1)
+* **Finalidade:** Informa quanto de espaço o disco tem disponivel e seu estado atual. 
+
 ---
 
 ## 👨‍💻 Tecnologias Utilizadas
