@@ -28,7 +28,6 @@ cd C:\Caminho\do\script
 ## ⚠️ Observações
 - Necessário acesso ao domínio  
 - Permissões administrativas nos servidores  
-- Ajustar paths conforme ambiente
 - Para que este script funcione corretamente, você precisa ter o PowerShell Remoting habilitado nos servidores de destino.  
 - O script também assume que o 'last_logon.ps1'está presente no caminho de perfil dos usuários no servidor remoto.  
 
