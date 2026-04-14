@@ -30,7 +30,6 @@ cd C:\Caminho\do\script
 Necessário acesso ao domínio
 Permissões administrativas nos servidores
 Ajustar paths conforme ambiente
-```
 
 ## 👨‍💻 Autor
 
