@@ -3,12 +3,6 @@
   Este script interativo permite que você selecione um servidor, defina um mês e ano
   para inatividade e remova os perfis de usuário que não acessam o servidor desde
   a data especificada.
-
-.Obeservação
-  Para que este script funcione corretamente, você precisa ter o PowerShell Remoting
-  habilitado nos servidores de destino. 
-  O script também assume que o 'last_logon.ps1'
-  está presente no caminho de perfil dos usuários no servidor remoto.
 #>
 
 # Força o console do PowerShell a usar a codificação UTF-8
@@ -26,8 +20,8 @@ function Select-Server {
     Write-Host "---------------------------------------------------------" -ForegroundColor Green
     Write-Host "      MENU DE SELEÇÃO DE SERVIDOR" -ForegroundColor Cyan
     Write-Host "---------------------------------------------------------" -ForegroundColor Green
-
-    $servers = @("srvcontabil", "srvatacfs", "srvatacpn", "srvtc1", "srvtc2", "srvtc3", "srvtc4", "srvtc5", "srvtc6", "srvtc7", "srvtc8", "srvtc9", "srvtc10", "srvtc11", "srvtc12", "srvtc13", "srvtc14", "srvtc15", "srvtc16", "srvtc17", "srvtc18", "srvtc19", "srvtc20", "srvtc21", "srvtc22", "srvtc23", "srvtc24", "srvtc25", "srvtc26")
+# coloque os servidores que serão gerenciados dentro de $servers. (apague essa linha se nescessario). 
+    $servers = @("")
 
     for ($i = 0; $i -lt $servers.Count; $i++) {
         Write-Host "$($i + 1). $($servers[$i])"

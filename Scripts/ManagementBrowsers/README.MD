@@ -36,6 +36,13 @@ Para resolver isso de forma definitiva, dividi o problema em duas partes:
 ### ⚠️ [Alerta de disco](./Get-DiskSpaceReport.ps1)
 * **Finalidade:** Informa quanto de espaço o disco tem disponivel e seu estado atual. 
 
+## ▶️ Como executar
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+cd C:\Caminho\do\script
+.\ChromeCleanup.ps1
+```
+* **Notas**: O Powershell deve ser elevado com permissões de administrador.
 ---
 
 ## 👨‍💻 Tecnologias Utilizadas
